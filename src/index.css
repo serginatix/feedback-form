@@ -1,6 +1,17 @@
 :root {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  color-scheme: light;
+  --color-primary: #aa3bff;
+  --color-primary-hover: #8c2be0;
+  --color-bg: #fafafa;
+  --color-text: #222;
+  --color-error: #e53935;
+  --color-success: #43a047;
+  --color-border: #ddd;
+  --radius: 12px;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --transition: 0.25s ease;
+
 }
 
 body {
